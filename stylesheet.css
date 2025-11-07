@@ -1,0 +1,89 @@
+/* ChatGPTのコード /*
+/* 全体のリセット */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* 薄い青 */
+}
+
+/* ヘッダー */
+header {
+    text-align: center;
+    background-color: #87cefa;
+    padding: 20px;
+    border-bottom: 2px solid #4682b4;
+}
+
+/* タイトル */
+header p:first-child {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* カウンター */
+#counter {
+    font-size: 2em;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* メイン */
+main {
+    padding: 20px;
+}
+
+/* ボタン */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffa500;
+    color: white;
+    margin: 5px 0;
+}
+
+button:hover {
+    background-color: #ff8c00;
+}
+
+/* 右寄せ */
+.right {
+    text-align: right;
+    margin-right: 20px;
+}
+
+/* 中央寄せ */
+.center {
+    text-align: center;
+}
+
+/* 購入欄の見出し */
+h6.right {
+    margin: 10px 0 5px 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* 購入金額表示 */
+p.right {
+    margin: 2px 0;
+}
+/* 右寄せのボタン */
+button.right {
+    float: right;            /* 右に寄せる */
+    padding: 8px 16px;       /* ボタンの内側余白 */
+    font-size: 1em;          /* 文字サイズ */
+    background-color: #4caf50; /* 緑色 */
+    color: white;            /* 文字色 */
+    border: none;            /* 枠線なし */
+    border-radius: 5px;      /* 角丸 */
+    cursor: pointer;         /* ホバーで手の形 */
+    margin: 5px 0;           /* 上下の余白 */
+}
+
+button.right:hover {
+    background-color: #45a049; /* ホバーで少し濃く */
+}
