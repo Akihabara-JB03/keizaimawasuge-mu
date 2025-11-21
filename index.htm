@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ゲームログイン</title>
+</head>
+<body>
+<h2>ゲームログイン</h2>
+
+<input type="text" id="username" placeholder="ユーザー名を入力">
+<button id="loginBtn">ログイン</button>
+
+<script>
+document.getElementById("loginBtn").addEventListener("click", function() {
+    let userName = document.getElementById("username").value.trim();
+    if (!userName) {
+        alert("ユーザー名を入力してください！");
+        return;
+    }
+
+    // ユーザー名をlocalStorageに保存してゲーム画面に渡す
+    localStorage.setItem("currentUser", userName);
+
+    // ゲーム画面へ遷移
+    window.location.href = "game.html";
+});
+</script>
+</body>
+</html>
