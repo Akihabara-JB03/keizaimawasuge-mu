@@ -1,4 +1,4 @@
-const { use } = require("react");
+
 
 
 var hurousyotoku_youtuber;
@@ -317,6 +317,7 @@ function load(username) {
         document.getElementById("subscriber").textContent = "登録者・賛同者：" + subscr + "名";
     };
 }
+
 
 
 
