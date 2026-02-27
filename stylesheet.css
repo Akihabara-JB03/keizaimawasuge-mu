@@ -1,4 +1,4 @@
-/* ChatGPTのコード /*
+/* ChatGPTのコード */
 /* 全体のリセット */
 body {
     margin: 0;
@@ -86,4 +86,25 @@ button.right {
 
 button.right:hover {
     background-color: #45a049; /* ホバーで少し濃く */
+}
+.left {
+    text-align: right;
+    margin-right: 20px;
+}
+button.left {
+    float: left;            /* 右に寄せる */
+    padding: 8px 16px;       /* ボタンの内側余白 */
+    font-size: 1em;          /* 文字サイズ */
+    background-color: #4caf50; /* 緑色 */
+    color: white;            /* 文字色 */
+    border: none;            /* 枠線なし */
+    border-radius: 5px;      /* 角丸 */
+    cursor: pointer;         /* ホバーで手の形 */
+    margin: 5px 0;           /* 上下の余白 */
+}
+h6.left {
+    margin: 10px 0 5px 0;
+    float:left;
+    font-size: 1em;
+    font-weight: bold;
 }
